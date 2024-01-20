@@ -29,9 +29,6 @@ const Calories = () => {
       <CardContent>
         <form>
           <div className="grid w-full items-center gap-4">
-
-            
-
             <div className="flex flex-col space-y-1.5">
               <Label htmlFor="dish">Dish</Label>
               <Input id="dish" placeholder="Name of the dish" />
@@ -46,7 +43,7 @@ const Calories = () => {
       </CardContent>
       <CardFooter className="flex justify-between">
         <Button variant="outline">Cancel</Button>
-        <Button>Deploy</Button>
+        <Button>Add</Button>
       </CardFooter>
     </Card>
   );
