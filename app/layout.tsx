@@ -3,8 +3,8 @@ import { Providers } from "@/redux/provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "nextjs-14 template",
-  description: "nextjs starter template with tailwind and redux",
+  title: "Resonance.",
+  description: "Effortless journaling elevated with AI assistance.",
 };
 
 export default function RootLayout({
