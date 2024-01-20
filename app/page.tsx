@@ -11,7 +11,7 @@ const Home = () => {
   const [progress, setProgress] = useState(33);
 
   return (
-    <div className="container py-10">
+    <div className="container py-10 m-auto">
       <nav>
         <h1 className="font-semibold text-3xl mb-10">resonance.</h1>
       </nav>
@@ -30,7 +30,9 @@ const Home = () => {
         </div>
       </div>
 
-      <Calories />
+      <div className="flex justify-center items-center md:inline-block">
+        <Calories />
+      </div>
     </div>
   );
 };
